@@ -25,6 +25,7 @@ const Pokemon = () => {
 return (
     <div>
         <button onClick={traerDatos}>Fetch Pokemon</button>
+        <hr/>
         <h3>Lista de pokemones</h3>
         {lista.map((item, index) => (
             <div key={index}>
